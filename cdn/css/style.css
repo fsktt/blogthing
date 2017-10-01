@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato|Open+Sans");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 350px;
+	background-image: url(../img/home.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+header div.overlay {
+	background-color: rgba(0, 0, 0, .2);
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+}
+
+header section#navbar {
+	z-index: 2;
+	width: 100%;
+	height: 120px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 60px;
+}
+
+header section#navbar img.logo {
+	pointer-events: none;
+	cursor: pointer;
+}
+
+header section#navbar a.bttn {
+	color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.08);
+	display: inline-block;
+	margin-bottom: 1rem;
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0.3rem;
+	float: right;
+	margin-right: 100px;
+	margin-top: -3px;
+	padding: 14px;
+	font-size: 14px;
+	text-decoration: none;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+header section#navbar a.bttn:hover {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color: rgba(255, 255, 255, 0.3);
+}
+
+header section#content {
+	width: 100%;
+	height: 200px;
+	z-index: 2;
+	margin: 0 auto;
+	margin-top: -25px;
+}
+
+header section#content div.main {
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+}
+
+header section#content div.main span.header {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+header section#content div.main span.sub {
+	font-family: "Lato", sans-serif;
+	color: rgba(255, 255, 255, .8);
+}
+
+section.content {
+	width: 60%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+section.content span.title {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: rgba(66, 66, 66, 1);
+	transition: color 0.3s ease;
+}
+
+section.content span.title:hover {
+	color: rgba(33, 33, 33, 1);
+}
+
+section.content p.excerpt {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	color: rgba(97, 97, 97, 1);
+	text-align: justify;
+	text-align-last: center;
+	margin-bottom: 40px;
+}
+
+article {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+article div.sep {
+	margin-top: 50px;
+	width: 100%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+footer#author {
+	font-size: 14px;
+	color: rgba(158, 158, 158, 1);
+}
+
+footer#author span.bar {
+	color: rgba(0, 0, 0, .5);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+footer#author img.who {
+	width: 35px;
+	height: 35px;
+	border-radius: 35px;
+	margin-right: 10px;
+	vertical-align: middle;
+	pointer-events: none;
+}
+
+section.nav {
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+
+section.nav span.count {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+section.nav span.older {
+	float: right;
+	color: rgba(0, 0, 0, 0.8);
+	transition: 0.2s color ease;
+}
+
+section.nav span.older:hover {
+	color: rgba(0, 0, 0, 0.5);
+}

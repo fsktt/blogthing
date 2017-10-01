@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato|Open+Sans");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 550px;
+	background-image: url(../img/home.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+header div.overlay {
+	background-color: rgba(0, 0, 0, .2);
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+}
+
+header section#navbar {
+	z-index: 2;
+	width: 100%;
+	height: 120px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 60px;
+}
+
+header section#navbar img.logo {
+	pointer-events: none;
+	cursor: pointer;
+}
+
+header section#navbar a.bttn {
+	color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.08);
+	display: inline-block;
+	margin-bottom: 1rem;
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0.3rem;
+	float: right;
+	margin-right: 100px;
+	margin-top: -3px;
+	padding: 14px;
+	font-size: 14px;
+	text-decoration: none;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+header section#navbar a.bttn:hover {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color: rgba(255, 255, 255, 0.3);
+}
+
+section.content {
+	width: 60%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+section.content span.title {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: rgba(66, 66, 66, 1);
+}
+
+article {
+	margin-bottom: 50px;
+}
+
+footer#author {
+	font-size: 14px;
+	color: rgba(158, 158, 158, 1);
+	margin-bottom: 35px;
+}
+
+footer#author span.bar {
+	color: rgba(0, 0, 0, .5);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+::selection {
+	background: rgba(0, 0, 0, .3);
+}
+
+p {
+	margin-bottom: 20px;
+}
